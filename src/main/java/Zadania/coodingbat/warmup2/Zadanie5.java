@@ -1,9 +1,7 @@
 package Zadania.coodingbat.warmup2;
 
-/*
-Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
+/*Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
 Biorąc pod uwagę ciąg, zwróć nowy ciąg składający się z co drugiego znaku, zaczynając od pierwszego, więc „Hello” daje „Hlo”.
-
         stringBits("Hello") → "Hlo"
         stringBits("Hi") → "H"
         stringBits("Heeololeo") → "Hello"*/

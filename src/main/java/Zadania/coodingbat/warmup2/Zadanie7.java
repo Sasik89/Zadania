@@ -12,6 +12,7 @@ więc „hixxxhi” daje 1 (nie będziemy liczyć końcowego podłańcucha).
 public class Zadanie7 {
     public static void main(String[] args) {
 
+        // TODO: 24.02.2024 Do zrobienia
 
     }
     public static int last2(String str) {

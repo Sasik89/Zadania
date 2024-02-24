@@ -17,7 +17,6 @@ public class Zadanie13 {
         System.out.println(altPairs2("Chocolate"));
         System.out.println(altPairs2("CodingHorror"));
 
-
     }
 
     public static String altPairs(String str) {
