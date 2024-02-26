@@ -9,4 +9,16 @@ The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic t
 
 
 public class Zadanie3 {
+    public static void main(String[] args) {
+
+        System.out.println(makeTags("i", "Yay"));
+        System.out.println(makeTags("i", "Hello"));
+        System.out.println(makeTags("cite", "Yay"));
+
+    }
+    public static String makeTags(String tag, String word) {
+        return "<" + tag +">"+word+"</"+tag+">";
+    }
+
+
 }
