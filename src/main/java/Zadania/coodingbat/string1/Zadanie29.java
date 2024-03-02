@@ -15,14 +15,20 @@ public class Zadanie29 {
         System.out.println(without2("HelloHi"));
         System.out.println(without2("Hi"));
 
-        // TODO: 02.03.2024 Nie działa 
-
+        // TODO: 02.03.2024 Wspomogłem sie GPT 
+        
     }
     public static String without2(String str) {
-        
-        
-        return "";
-
+        if (str.length() < 2) {
+            return str;
+        }
+        String firstTwoChars = str.substring(0, 2);
+        String lastTwoChars = str.substring(str.length() - 2);
+        if (firstTwoChars.equals(lastTwoChars)) {
+            return str.substring(2);
+        } else {
+            return str;
+        }
     }
 
 }

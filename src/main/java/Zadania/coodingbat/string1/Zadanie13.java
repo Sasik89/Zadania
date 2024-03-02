@@ -13,7 +13,6 @@ public class Zadanie13 {
         System.out.println(theEnd("Hello", false));
         System.out.println(theEnd("oh", true));
 
-
     }
     public static String theEnd(String str, boolean front) {
         if(front!=true){

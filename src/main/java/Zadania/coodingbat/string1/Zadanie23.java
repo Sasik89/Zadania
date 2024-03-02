@@ -17,10 +17,11 @@ public class Zadanie23 {
 
     }
 
-    // TODO: 01.03.2024 Nie działa 
-
     public static String conCat(String a, String b) {
-        String str = new StringBuilder().append(a).append(b).toString();
-        return str;
+        if(a.length()>1 && b.startsWith(String.valueOf(a.charAt(a.length()-1)))){
+            return a + b.substring(1);
+        } else {
+            return a+b;
+        }
     }
     }
