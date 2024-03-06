@@ -18,6 +18,13 @@ public class Zadanie9 {
 
     }
     public static int sum2(int[] nums) {
-
+        if (nums.length==1) {
+            return nums[0];
+        } else if (nums.length>=2) {
+            for(int i=0; i<2;i++){
+                return nums[0]+nums[1];
+            }
+        }
+        return 0;
     }
 }

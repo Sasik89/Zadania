@@ -18,7 +18,12 @@ public class Zadanie7 {
 
     }
     public static int[] reverse3(int[] nums) {
-
+        int[] result = new int[nums.length];
+        for(int i=0; i<nums.length;i++){
+            int j = Math.abs(i-2);
+            result[j]=nums[i];
+        }
+        return result;
     }
 
 }
