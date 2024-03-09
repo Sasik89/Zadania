@@ -1,4 +1,4 @@
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 
 /*Given a list of integers, return a list where each integer is added to 1 and the result is multiplied by 10.

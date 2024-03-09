@@ -11,7 +11,7 @@ Uwaga: Math.abs(num) oblicza wartość bezwzględną liczby.
         closeFar(4, 1, 3) → true
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 
 

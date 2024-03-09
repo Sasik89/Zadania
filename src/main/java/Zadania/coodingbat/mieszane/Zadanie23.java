@@ -9,7 +9,7 @@ Biorąc pod uwagę 2 wartości int większe niż 0, zwróć wartość najbliższ
         blackjack(19, 22) → 19
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 public class Zadanie23 {
 

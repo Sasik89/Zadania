@@ -1,4 +1,4 @@
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 /*Given a string, return the length of the largest "block" in the string. A block is a run of adjacent chars that are the same.
 Biorąc pod uwagę ciąg, zwróć długość największego „bloku” w ciągu. Blok to ciąg sąsiadujących ze sobą znaków, które są takie same.

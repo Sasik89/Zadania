@@ -1,4 +1,4 @@
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 /*
 We want make a package of goal kilos of chocolate. We have small bars (1 kilo each) and big bars (5 kilos each).

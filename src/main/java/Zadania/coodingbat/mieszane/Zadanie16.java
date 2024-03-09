@@ -1,4 +1,4 @@
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 /*Given a string and a non-empty word string, return a version of the original
 String where all chars have been replaced by pluses ("+"),

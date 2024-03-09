@@ -1,4 +1,4 @@
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 
 /*

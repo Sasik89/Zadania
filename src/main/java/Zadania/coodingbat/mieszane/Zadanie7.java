@@ -11,7 +11,7 @@ Poza tym liczby mogą być w dowolnej kolejności. Możesz zmodyfikować i zwró
 */
 
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 import java.util.ArrayList;
 import java.util.List;

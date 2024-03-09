@@ -1,4 +1,4 @@
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 /*Given a list of non-negative integers, return a list of those numbers except omitting any that end with 9. (Note: % by 10)
 Biorąc pod uwagę listę nieujemnych liczb całkowitych, zwróć listę tych liczb, z wyjątkiem pomijania tych, które kończą się na 9. (Uwaga: % na 10)

@@ -12,7 +12,7 @@ W tej wersji cyfry 5 mogą pojawić się w dowolnym miejscu oryginalnej tablicy.
         fix45([1, 4, 1, 5]) → [1, 4, 5, 1]
         fix45([1, 4, 1, 5, 5, 4, 1]) → [1, 4, 5, 1, 1, 4, 5]*/
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 import java.util.ArrayList;
 import java.util.List;

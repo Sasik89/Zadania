@@ -1,4 +1,4 @@
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 /*
 Return the sum of the numbers in the array, returning 0 for an empty array.

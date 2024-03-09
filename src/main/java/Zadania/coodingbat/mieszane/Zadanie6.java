@@ -10,7 +10,7 @@ Biorąc pod uwagę tablicę int, zwróć true, jeśli tablica nie zawiera 1 ani 
 
 //https://codingbat.com/prob/p194525
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 public class Zadanie6 {
 

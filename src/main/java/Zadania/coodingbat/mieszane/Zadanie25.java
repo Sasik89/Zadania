@@ -8,7 +8,7 @@ Powiemy, że „potrójna” w łańcuchu to znak pojawiający się trzy razy z 
         countTriple("a") → 0
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 import java.util.Arrays;
 import java.util.List;
@@ -27,7 +27,6 @@ public class Zadanie25 {
         countTriple(slowo1);
         countTriple(slowo2);
         countTriple(slowo3);
-
 
 
     }

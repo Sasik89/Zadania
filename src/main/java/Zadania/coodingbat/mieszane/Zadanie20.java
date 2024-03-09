@@ -10,7 +10,7 @@ Biorąc pod uwagę dwa ciągi, aib, utwórz większy ciąg składający się z p
         mixString("xxxx", "There") → "xTxhxexre"
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 import java.util.ArrayList;
 

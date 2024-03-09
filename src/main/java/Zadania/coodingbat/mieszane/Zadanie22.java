@@ -16,7 +16,7 @@ Given 3 int values, a b c, return their sum. However, if any of the values is a 
         noTeenSum(2, 1, 14) → 3
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 public class Zadanie22 {
 

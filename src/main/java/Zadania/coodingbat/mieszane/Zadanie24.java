@@ -12,7 +12,7 @@ Biorąc pod uwagę ciąg, zwróć sumę cyfr 0-9, które pojawiają się w ciąg
         sumDigits("Chocolate") → 0
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 public class Zadanie24 {
 

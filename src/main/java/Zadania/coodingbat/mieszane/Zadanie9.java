@@ -20,7 +20,7 @@ Mając n >= 0, utwórz tablicę o długości n*n według następującego wzorca,
                        4, 3, 2, 1]
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 public class Zadanie9 {
     public static void main(String[] args) {

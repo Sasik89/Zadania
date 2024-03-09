@@ -11,7 +11,7 @@ Kolejność liczb niezerowych nie ma znaczenia. Zatem {1, 0, 0, 1} staje się {0
         zeroFront([1, 0]) → [0, 1]
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 import java.util.ArrayList;
 import java.util.List;

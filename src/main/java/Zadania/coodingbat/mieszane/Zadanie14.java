@@ -12,7 +12,7 @@
     bunnyEars2(2) → 5
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 public class Zadanie14 {
 

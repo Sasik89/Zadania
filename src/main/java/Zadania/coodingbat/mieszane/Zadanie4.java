@@ -8,7 +8,7 @@ Zwróć liczbę parzystych liczb całkowitych w podanej tablicy. Uwaga: operator
         countEvens([1, 3, 5]) → 0
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 import java.util.Arrays;
 
@@ -21,7 +21,6 @@ public class Zadanie4 {
         int[] tablica1 = {2, 1, 2, 3, 4};
         int[] tablica2 = {2, 2, 0, 8, 10, 15, 45, 123, 4, 6,12, 46,12};
         int[] tablica3 = {1, 3, 5};
-
 
         countEvans(tablica1);
         countEvans(tablica2);

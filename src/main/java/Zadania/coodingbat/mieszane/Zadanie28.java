@@ -9,7 +9,7 @@ Given a non-empty array, return true if there is a place to split the array so t
        canBalance([10, 10]) → true
 */
 
-package Zadania.coodingbat;
+package Zadania.coodingbat.mieszane;
 
 public class Zadanie28 {
 
