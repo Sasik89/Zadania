@@ -12,9 +12,9 @@ public class Zadanie7 {
         int[] tablica2 = {5, 11, 9};
         int[] tablica3 = {7, 0, 0};
 
-        System.out.println(reverse3(tablica1));
-        System.out.println(reverse3(tablica2));
-        System.out.println(reverse3(tablica3));
+        wypisywacz(reverse3(tablica1));
+        wypisywacz(reverse3(tablica2));
+        wypisywacz(reverse3(tablica3));
 
     }
     public static int[] reverse3(int[] nums) {
@@ -25,5 +25,10 @@ public class Zadanie7 {
         }
         return result;
     }
-
+    public static void wypisywacz(int[] tablica){
+        for(int element : tablica){
+            System.out.print(element + " ");
+        }
+        System.out.println();
+    }
 }

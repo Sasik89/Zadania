@@ -16,10 +16,9 @@ public class Zadanie10 {
         int[] tablica5 = {5, 2, 9};
         int[] tablica6 = {1, 4, 5};
 
-        System.out.println(middleWay(tablica1,tablica2));
-        System.out.println(middleWay(tablica3,tablica4));
-        System.out.println(middleWay(tablica5,tablica6));
-
+        wypisywacz(middleWay(tablica1,tablica2));
+        wypisywacz(middleWay(tablica3,tablica4));
+        wypisywacz(middleWay(tablica5,tablica6));
 
     }
     public static int[] middleWay(int[] a, int[] b) {
@@ -27,6 +26,12 @@ public class Zadanie10 {
         result[0] = a[1];
         result[1] = b[1];
         return result;
+    }
+    public static void wypisywacz(int[] tablica){
+        for(int element : tablica){
+            System.out.print(element + " ");
+        }
+        System.out.println();
     }
 
 }

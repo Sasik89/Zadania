@@ -17,7 +17,6 @@ public class Zadanie12 {
         System.out.println(has23(tablica2));
         System.out.println(has23(tablica3));
 
-
     }
     public static boolean has23(int[] nums) {
         for(int num : nums){

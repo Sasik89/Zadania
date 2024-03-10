@@ -17,9 +17,9 @@ public class Zadanie8 {
         int[] tablica2 = {11, 5, 9};
         int[] tablica3 = {2, 11, 3};
 
-        System.out.println(maxEnd3(tablica1));
-        System.out.println(maxEnd3(tablica2));
-        System.out.println(maxEnd3(tablica3));
+        wypisywacz(maxEnd3(tablica1));
+        wypisywacz(maxEnd3(tablica2));
+        wypisywacz(maxEnd3(tablica3));
 
 
     }
@@ -36,5 +36,11 @@ public class Zadanie8 {
             }
         }
         return result;
+    }
+    public static void wypisywacz(int[] tablica){
+        for(int element : tablica){
+            System.out.print(element + " ");
+        }
+        System.out.println();
     }
 }

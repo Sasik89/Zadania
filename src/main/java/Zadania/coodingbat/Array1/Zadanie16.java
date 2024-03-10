@@ -16,7 +16,6 @@ public class Zadanie16 {
         wypisywacz(fix23(tablica2));
         wypisywacz(fix23(tablica3));
 
-
     }
     public static int[] fix23(int[] nums) {
         for(int i=0;i<nums.length-1;i++){
