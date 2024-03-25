@@ -16,7 +16,16 @@ public class Zadanie2 {
 
     }
     public static String withoutString(String base, String remove) {
-
+        StringBuilder stringBuilder = new StringBuilder();
+        int lenfthOfRemove = remove.length();
+        for(int i =0; i<base.length();i++){
+            if(i<=base.length()-lenfthOfRemove && base.substring(i,i+lenfthOfRemove).toLowerCase().equals(remove.toLowerCase())){
+                i=i+lenfthOfRemove-1;
+            } else {
+                stringBuilder.append(base.substring(i,i+1));
+            }
+        }
+        return stringBuilder.toString();
     }
 
 
