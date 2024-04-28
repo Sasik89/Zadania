@@ -11,47 +11,37 @@ Zwraca rozmiar największej sekcji lustra znalezionej w podanej tablicy.
         maxMirror([7, 1, 2, 9, 7, 2, 1]) → 2*/
 
 public class Zadanie8 {
-/*    public static void main(String[] args) {
+    public static void main(String[] args) {
 
         int[] tablica1 = {1, 2, 3, 8, 9, 3, 2, 1};
         int[] tablica2 = {1, 2, 1, 4};
         int[] tablica3 = {7, 1, 2, 9, 7, 2, 1};
 
-*//*        System.out.println(maxMirror(tablica1));*//*
+        System.out.println(maxMirror(tablica1));
         System.out.println(maxMirror(tablica2));
-*//*        System.out.println(maxMirror(tablica3));*//*
+        System.out.println(maxMirror(tablica3));
 
     }
 
     public static int maxMirror(int[] nums) {
-        int max = 0;
-        int counter = 0;
+        int max_size = 0;
+
         for (int i = 0; i < nums.length; i++) {
-            int iNumb = i;
-            for (int j = nums.length - 1; j > 0; j--) {
-                if (nums[i] == nums[j] && i<nums.length-1 && j>0) {
-                    counter++;
-                    i++;
-                    if (counter > max) {
-                        max = counter;
-                    }
-                } else {
-                  //  i = iNumb+1;
-                    counter = 0;
-                    break;
+            for (int j = nums.length - 1; j >= 0; j--) {
+                int size = 0;
+                int m = i;
+                int n = j;
+
+                while (m < nums.length && n >= 0 && nums[m] == nums[n]) {
+                    size++;
+                    m++;
+                    n--;
                 }
+
+                max_size = Math.max(max_size, size);
             }
         }
-        return max;
+        return max_size;
     }
-
-
-    public static int maxMirror2(int[] nums) {
-        int max = 0;
-        int counter = 0;
-        for(int i = 0; i<nums.length; i++){
-
-        }
-    }*/
 
 }

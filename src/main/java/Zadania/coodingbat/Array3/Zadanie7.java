@@ -17,7 +17,6 @@ public class Zadanie7 {
         wyswietlacz(seriesUp(4));
         wyswietlacz(seriesUp(2));
 
-
     }
 
     public static int[] seriesUp(int n) {
